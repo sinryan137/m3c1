@@ -1,9 +1,5 @@
-import pandas as pd
-
-df=pd.read_csv("sales_subset.csv")
-
 # Print the head of the sales DataFrame
-print("sales_subset".head())
+print(sales.head())
 
 # Print the info about the sales DataFrame
 print(sales.info())
